@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arpita Santra — Portfolio</title>
+
+  <link rel="stylesheet" href="portfolio-pr.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+  <meta name="description" content="Arpita Santra — Engineering student, projects & contact.">
+</head>
+<body>
+
+  <header>
+    <div class="wrap nav" role="navigation" aria-label="Main navigation">
+      <div class="brand">
+        <a href="#home" class="brand-link" style="text-decoration:none;">
+          <h1>Arpita Santra</h1>
+        </a>
+        <span class="sub" style="color:var(--muted);font-size:0.95rem">B.Tech CSE • Budge Budge Institute of Technology</span>
+      </div>
+
+      <nav>
+        <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="main-menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul id="main-menu">
+          <li><a class="navlink" href="#home">Home</a></li>
+          <li><a class="navlink" href="#about">About</a></li>
+          <li><a class="navlink" href="#skills">Skills</a></li>
+          <li><a class="navlink" href="#projects">Projects</a></li>
+          <li><a class="navlink" href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <h2>Hi, I'm</h2>
+        <h1>Arpita Santra</h1>
+
+        <div style="display:flex;align-items:center;gap:10px">
+          <p style="margin:0;color:var(--muted)">I'm a</p>
+          <div id="typed-target" style="font-weight:700;color:var(--accent);font-size:20px"></div>
+        </div>
+
+        <p class="lead">Avid tech explorer — learning web development, fronted technologies like HTML, CSS and javascript, 
+          practicing DSA and building interactive UI/UX. Looking for internships and hands-on projects.</p>
+
+        <div class="cta">
+          <a class="btn btn-primary" href="#contact">Contact me</a>
+          <a class="btn btn-primary" href="#projects">View projects</a>
+        </div>
+      </div>
+
+  <div class="profile">
+        <div class="avatar">
+          <img src="images/My photo.jpg" alt="Arpita Santra" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About me</h2>
+      <p class="lead">Hi! I'm Arpita, Currently pursuing B.Tech (CSE) at Budge Budge Institute of Technology.
+        passionate about creating clean, responsive and user-friendly web interfaces. 
+        I enjoy turning creative ideas into modern websites using HTML, CSS, JavaScript, and UI design principles.
+        I love learning new technologies and improving my design sense every day.
+        My goal is to become a skilled developer who builds smooth and meaningful digital experiences.
+        I like solving problems and constantly improving my code and design skills.
+        Currently, I'm building personal projects to strengthen my knowledge and confidence.</p>
+
+      <div class="two-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:center">
+        <div class="card small" style="background:white;padding:18px;border-radius:12px;box-shadow:var(--card-shadow)">
+          <h3>Education</h3>
+          <p style="color:var(--muted)">B.Tech in Computer Science and Engineering — Budge Budge Institute of Technology (2022–2026)</p>
+        </div>
+
+        <div class="card small" style="background:white;padding:18px;border-radius:12px;box-shadow:var(--card-shadow)">
+          <h3>Interests</h3>
+          <p style="color:var(--muted)">Frontend, Databases, UI/UX, Competitive Programming</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+      <p class="lead">A snapshot of technologies I work with.</p>
+
+      <div class="skills-grid">
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><p>HTML</p></div>
+        <div class="skill"><img src="images/image.png" alt="CSS"><p>CSS</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS"><p>JavaScript</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"><p>React</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><p>Java</p></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <p class="lead">Some recent work — links go to GitHub or live demos.</p>
+
+      <div class="projects">
+        <article class="card">
+          <img src="images/Screenshot6.png" alt="recipe chatbot" loading="lazy">
+          <div class="card-body">
+            <h3>Recipe chatbot</h3>
+            <p>Interactive demo project.</p>
+            <div class="card-links"><a href="recipe.html" aria-label="Open recipe project"><i class="fa-solid fa-up-right-from-square"></i></a></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/Screenshot1.png" alt="sorting visualizer" loading="lazy">
+          <div class="card-body">
+            <h3>Sorting visualizer</h3>
+            <p>Visualizes sorting algorithms.</p>
+            <div class="card-links"><a href="stv.html"><i class="fa-solid fa-up-right-from-square"></i></a></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/Screenshot5.png" alt="quiz app" loading="lazy">
+          <div class="card-body">
+            <h3>Quiz Application</h3>
+            <p>Interactive quiz app with score tracking.</p>
+            <div class="card-links"><a href="up-pj/quiz-app.html"><i class="fa-solid fa-up-right-from-square"></i></a></div>
+          </div>
+        </article>
+        
+        <article class="card">
+          <img src="images/Screenshot2.png" alt="Rock paper scissors" loading="lazy">
+          <div class="card-body">
+            <h3>Rock Paper Scissors</h3>
+            <p>Classic game with clean UI and score retention.</p>
+            <div class="card-links"><a href="http://127.0.0.1:5500/proj-1/01-Rock-paper-scissors.html"><i class="fa-solid fa-up-right-from-square"></i></a></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/Screenshot3.png" alt="Password generator" loading="lazy">
+          <div class="card-body">
+            <h3>passwoerd generator</h3>
+            <p>Generate secure and strong password</p>
+            <div class="card-links"><a href="http://127.0.0.1:5500/proj-2/password.html"><i class="fa-solid fa-up-right-from-square"></i></a></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/Screenshot4.png" alt="calculator" loading="lazy">
+          <div class="card-body">
+            <h3>calculator</h3>
+            <p>calculator and evaluates math expressions.</p>
+            <div class="card-links"><a href="http://127.0.0.1:5500/proj-3/calculator.html"><i class="fa-solid fa-up-right-from-square"></i></a></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p class="lead">Want to work together? Send a message or reach me via social links.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <p style="margin-bottom:6px"><i class="fa-solid fa-envelope"></i> santraarpita0999@gmail.com</p>
+          <p style="margin-bottom:6px"><i class="fa-solid fa-phone"></i> +91 7478071938</p>
+          <div style="margin-top:10px;display:flex;gap:10px">
+            <a href="https://www.linkedin.com/in/arpita-santra-a03743382/" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+            <a href="https://github.com/santraarpita0999-bot" aria-label="GitHub profile"><i class="fa-brands fa-github fa-lg"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-card" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="83fbc96f-452b-4186-9249-c193939689db">
+          <input name="name" type="text" placeholder="Your name" required>
+          <input name="email" type="email" placeholder="Email" required>
+          <input name="mobile" type="text" placeholder="Phone (optional)">
+          <textarea name="message" placeholder="Message" rows="5" required></textarea>
+          <button type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap"> Copyright @ 2025 All rights reserved | This portfolio website is created by Arpita Santra</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script src="portfolio-pr.js"></script>
+</body>
+</html>
